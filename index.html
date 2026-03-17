@@ -3,15 +3,16 @@
 
 <head></head>
 <header>
-   <h1> Project DUST </h1>
-   <p> Domestic Survival • Unity • Sources • Transition </p>
+   <h1> Project HAS </h1>
+   <p> History • Allyship • Survival </p>
    <button>
       Change Site Language
    </button>
 </header>
 
 <body onload="message()">
-   <embed id="viewer" type="text/html" src="https://drive.proton.me/urls/0SR5MJ3SFG#dUFYhO1ej1L8" height="500em" width="100%">
+   <embed id="viewer" type="text/html" src="https://drive.proton.me/urls/0N4XS61XZW#DgS9hgWfPkZE" height="500em"
+      width="100%">
    </embed>
    <p>
       this website is in progress. many features still do not work.
@@ -21,20 +22,64 @@
    <!-- create a fake link for the file download page -->
    <!-- redirect to the fake download link -->
    <!-- redirect the user to google -->
+
+   <!-- top ribbon: allyship, history, survival -->
+   <nav>
+      <button> Allyship </button>
+      <button> History </button>
+      <button> Survival </button>
+      <button>
+         <a target="_blank" src=""> I Don't Have a Lot of Time </a>
+      </button>
+   </nav>
+
+   <!-- use tables for these -->
+   <div hidden id="allyship">
+      allyship
+   </div>
+
+   <!-- three columns: year, event, files -->
+   <div id="history">
+      <table>
+         <tr>
+            <button>
+               1700s
+            </button>
+            <button>
+               1800s
+            </button>
+         </tr>
+      </table>
+   </div>
+
+   <!-- three columns: skill, topic, files -->
+   <div hidden id="survival">
+      survival
+   </div>
 </body>
 
 <footer>
    <!-- make this a line of small icons -->
    <h1> Our Friends </h1>
-   <a href="https://ziyuan-resources.neocities.org"><img></a>
-   <button>
-      <a> About </a>
+   <nav>
+      <a href="https://ziyuan-resources.neocities.org"><img></a>
+   </nav>
+   <button onpointerover="about()">
+      About
    </button>
+   <hidden>
+      <p> Project HAS is a collective effort committed to downloading and collecting accurate and helpful resources,
+         both primary and secondary to keep the mind and overall body alive. </p>
+   </hidden>
    <button>
+      <a target="mailto:patriciaamary@proton.me""></a>
       Resource Recommendations and Submissions
    </button>
    <button>
-      <a target="_blank" href="https://www.gofundme.com/f/soup-soup"> Feed the court jester </a>
+      <a target=" _blank" href="https://gofund.me/5ba8220c7"> Feed the court jester </a>
+   </button>
+   <button>
+      <a target="_blank" href="/blank"> Feed the other court jester </a>
    </button>
 </footer>
 

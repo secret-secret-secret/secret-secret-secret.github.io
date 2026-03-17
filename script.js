@@ -1,3 +1,7 @@
+function about() {
+   // unhide a smallpopup
+}
+
 function readFile(file) {
    filetype;
    source;
@@ -21,4 +25,9 @@ function download(link) {
 
 function message() {
    alert("Welcome. Keep your prints, faces, and IPs outside of the vehicle");
+}
+
+function nav(file) {
+   document.getElementById(file).hidden = false;
+   document.getElementsByClassName(div).getElementById(!file).hidden = false;
 }
